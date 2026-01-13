@@ -55,7 +55,7 @@
         else {
             
             accountList = JSON.parse(acctString) // converts string into the correct data type in this case object    
-            rowString = "<tr><th>Full Name</th><th>Grade Level</th><th>Preferred Club/Organization</th><th></th></tr>";
+            rowString = "<tr><th>Full Name</th><th>Grade Level</th><th>Preferred Club/Organization</th><th>Reason</th></tr>";
             // results.innerHTML = ""  // resets the table
             console.log(accountList)
             for (let key in accountList) {
